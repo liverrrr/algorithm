@@ -10,6 +10,7 @@ public class RemoveDuplicatesFromSortedArray {
     /**
      * 数组双指针
      * 如果前面和后面数不一样，就让tail++，而且将i所在的数往前移
+     * 注意指针从1开始
      */
     public int removeDuplicates(int[] nums) {
         if (nums.length <= 1) return nums.length;
